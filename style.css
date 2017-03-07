@@ -1,6 +1,18 @@
+
+
+body {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 h2 {
+  font-family: 'Lato', sans-serif;
+}
+ul {
   font-family: 'Lato', sans-serif;
 }
