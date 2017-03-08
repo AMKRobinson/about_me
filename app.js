@@ -7,7 +7,7 @@ console.log(question1 + ' : ' + username);
 while (username === '' || username === null) (
   username = prompt(question1)
 )
-var response1= 'Hi ' + username + ', nice to meet you!';
+var response1 = 'Hi ' + username + ', nice to meet you!';
 alert(response1);
 
 var answer1 = prompt('Do you think I\'ve skydived before ' + username + '?');
@@ -17,7 +17,7 @@ if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
 } else if (answer1.toLowerCase() === 'no' || answer1.toLowerCase() === 'n') {
   alert('Actually, I was dumb enough to do that.');
 } else {
-  alert('WRONG!');
+  alert('hmm..');
 }
 
 var answer2 = prompt('Do you think I own a dog ' + username + '?');
@@ -47,7 +47,7 @@ if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
 } else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
   alert('Incorrect.');
 } else {
-  alert('wut?');
+  alert('ok?');
 }
 
 var answer5 = prompt('Have I broken any bones ' + username + '?');
@@ -57,5 +57,5 @@ if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
 } else if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
   alert('Incorrect.');
 } else {
-  alert('wut?');
+  alert('..?');
 }
