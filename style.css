@@ -1,0 +1,20 @@
+
+
+body {
+  color: white;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+ul {
+  font-family: 'Lato', sans-serif;
+}
