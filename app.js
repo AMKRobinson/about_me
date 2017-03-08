@@ -3,7 +3,11 @@
 var question1 = 'What\'s your name?';
 var username = prompt(question1);
 console.log(question1 + ' : ' + username);
-var response1= 'Hi ' + 'username' + ', nice to meet you!';
+
+while (username === '' || username === null) (
+  username = prompt(question1)
+)
+var response1= 'Hi ' + username + ', nice to meet you!';
 alert(response1);
 
 var answer1 = prompt('Do you think I\'ve skydived before ' + username + '?');
