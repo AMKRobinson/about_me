@@ -86,7 +86,7 @@ while (counter < 4) {
   }
 }
 
-var countries = ['vietnam','germany','france','italy','croatia'];
+var countries = ['vietnam', 'germany', 'france', 'italy', 'croatia'];
 for (var counter = 0; counter < 6; counter++) {
   var question7 = prompt('What countries have I traveled to?');
   console.log(typeof question7);
