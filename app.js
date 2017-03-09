@@ -5,9 +5,9 @@ var question1 = 'What\'s your name?';
 var username = prompt(question1);
 console.log(question1 + ' : ' + username);
 
-while (username === '' || username === null) (
-  username = prompt(question1)
-);
+while (username === '' || username === null) {
+  username = prompt(question1);
+}
 var response1 = 'Hi ' + username + ', nice to meet you!';
 alert(response1);
 
@@ -67,13 +67,15 @@ if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
 }
 
 var counter = 0;
-while(counter < 4) {
+while (counter < 4) {
   var question6 = parseInt(prompt('How many miles do I walk to Code Fellows?'));
   console.log(typeof question6);
-  if (question6 < 2)
+  if (question6 < 2){
     alert('Too low!');
-  if (question6 > 2)
+  }
+  if (question6 > 2){
     alert('Too high!');
+  }
   if (question6 === 2){
     alert('You got it right!');
     correct++;
@@ -84,18 +86,20 @@ while(counter < 4) {
   }
 }
 
-var counter = 0;
-while(counter < 6) {
-  var question7 = prompt('How many miles do I walk to Code Fellows?');
+var countries = ['vietnam','germany','france','italy','croatia'];
+for (var counter = 0; counter < 6; counter++) {
+  var question7 = prompt('What countries have I traveled to?');
   console.log(typeof question7);
-  if (question7 === 1){
-    alert('You got it right!');
+  if (countries.includes(question7)) {
+    alert('You got it right! Vietnam, Germany, France, Italy, or Croatia.');
     correct++;
     break;
   }
-  else {
-    counter++;
+  else if (counter < 5) {
+    alert('Try again!');
+  } else {
+    alert('You have run out of tries. The answers are');
   }
 }
 
-var complete = alert(username + ' you got ' + correct + ' answers correct!' );
+alert(username + ' you got ' + correct + ' answers correct!' );
