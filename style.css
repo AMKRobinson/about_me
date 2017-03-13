@@ -1,21 +1,44 @@
 body {
-  color: white;
+  font-family: 'Slabo 27px', serif;
+  color: #3E3940;
   text-align: left;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: black;
+  background-color: #F6E5FF;
 }
 
+section {
+  color: #3E3940;
+  font-family: 'Slabo 27px', serif;
+  border-style: inset;
+  border-color: black;
+  background: #E5E1DD;
+  padding: 10px;
+}
+
+.profile {
+  border-radius: 400px;
+  max-width: 200px;
+
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  border-width: 3px;
+  font-family: 'Slabo 27px', serif;
   text-align: center;
+
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
 }
 
 ul {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Slabo 27px', serif;
 }
